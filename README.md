@@ -14,7 +14,7 @@ Data source: crypto_data.csv
 
 ## 3 Result
 ### Preprocessing the Data for PCA
-Before the data processed for PCA the data from csv will be cleaned.The processes are:
+Before the data will be processed for PCA,  it will be cleaned with some of the processes are:
 * Keep the cryptocurrencies that are being traded & with working algorithm
 * Drop the IsTrading column
 * Remove rows that have at least one null value

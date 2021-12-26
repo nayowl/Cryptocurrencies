@@ -15,7 +15,7 @@ Data source: crypto_data.csv
 ## 3 Result
 ### Preprocessing the Data for PCA
 Before the data processed for PCA the data from csv will be cleaned.The processes are:
-* Keep the cryptocurrencies that are being traded & algorithm worked
+* Keep the cryptocurrencies that are being traded & with working algorithm
 * Drop the IsTrading column
 * Remove rows that have at least one null value
 * Keep cryptocurrencies that TotalCoinsMined>0
@@ -86,5 +86,23 @@ A New Dataframe will be created to show the data with the  predicted clusters an
 
 The visualizations of the cryptocurrencies results will be shown in Figure 6 and Figure 7.
 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/88597187/147422824-464be0cc-2aad-4f3e-8162-b5db59f017bb.png" width="400" height="200"/>
+</p>
+
+<p align="center">
+  <sub> Figure 6 3D-Scatter with the PCA data and the clusters.  </sub>
+</p>
+
+
+
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/88597187/147422843-0a879908-a1db-4f92-ab98-5d0df617bccf.png" width="400" height="200"/>
+</p>
+
+<p align="center">
+  <sub> Figure 7 Scatter plot using x="TotalCoinsMined" and y="TotalCoinSupply"  </sub>
+</p>
 
 
